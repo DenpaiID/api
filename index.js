@@ -113,7 +113,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/dashboard', (req, res) => {
-  res.sendFile(path.join(__dirname, '/pages/dashboard.html'));
+  res.sendFile(path.join(__dirname, '/pages/dashboard2.html'));
 });
 
 app.get('/api/ragbot', async (req, res) => {
